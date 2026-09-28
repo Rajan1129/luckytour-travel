@@ -8,13 +8,15 @@ dist/
 build/
 **/build/
 
-# Environment files
+# Environment files (exclude real secrets, allow .example templates)
 .env
-.env.*
-!.env.example
+.env.local
+.env.production
+.env.development
 **/.env
-**/.env.*
-!**/.env.example
+**/.env.local
+**/.env.production
+**/.env.development
 
 # Logs & Debugging
 npm-debug.log*
