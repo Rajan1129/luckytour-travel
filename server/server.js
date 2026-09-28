@@ -23,7 +23,8 @@ app.use(
     allowedHeaders: ['Content-Type', 'Authorization', 'x-admin-token']
   })
 );
-app.use(express.json({ limit: '2mb' }));
+app.use(express.json({ limit: '10mb' }));
+app.use(express.urlencoded({ extended: true, limit: '10mb' }));
 
 app.get('/', (req, res) => res.json({ service: 'Lucky Tour & Travel API' }));
 app.use('/api', routes);

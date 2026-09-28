@@ -29,6 +29,7 @@ import {
 } from 'lucide-react';
 import { useAppData } from '../context/DataContext.jsx';
 import { SITE } from '../config/site.js';
+import ImagePickerField from '../components/ImagePickerField.jsx';
 
 export default function Admin() {
   const {
@@ -1272,44 +1273,24 @@ export default function Admin() {
                       />
                     </div>
                   </div>
-                  <div className="grid grid-cols-2 gap-3">
-                    <div>
-                      <label className="block text-xs font-bold text-ink-dim mb-1">Luggage Space</label>
-                      <input
-                        type="text"
-                        required
-                        value={editingItem.data.bags || ''}
-                        onChange={(e) => setEditingItem({ ...editingItem, data: { ...editingItem.data, bags: e.target.value } })}
-                        className="w-full rounded-xl border border-linen/20 bg-surface-high/60 px-3 py-2 text-sm text-ink focus:border-amber focus:outline-none"
-                        placeholder="e.g. 4-5 Large Bags"
-                      />
-                    </div>
-                    <div>
-                      <label className="block text-xs font-bold text-ink-dim mb-1">Display Image Path / URL</label>
-                      <input
-                        type="text"
-                        required
-                        value={editingItem.data.image || ''}
-                        onChange={(e) => setEditingItem({ ...editingItem, data: { ...editingItem.data, image: e.target.value } })}
-                        className="w-full rounded-xl border border-linen/20 bg-surface-high/60 px-3 py-2 text-sm text-ink focus:border-amber focus:outline-none"
-                        placeholder="/images/toyota-innova-hycross.jpg"
-                      />
-                    </div>
+                  <div>
+                    <label className="block text-xs font-bold text-ink-dim mb-1">Luggage Space</label>
+                    <input
+                      type="text"
+                      required
+                      value={editingItem.data.bags || ''}
+                      onChange={(e) => setEditingItem({ ...editingItem, data: { ...editingItem.data, bags: e.target.value } })}
+                      className="w-full rounded-xl border border-linen/20 bg-surface-high/60 px-3 py-2 text-sm text-ink focus:border-amber focus:outline-none"
+                      placeholder="e.g. 4-5 Large Bags"
+                    />
                   </div>
-                  {editingItem.data.image && (
-                    <div className="flex items-center gap-3 rounded-xl border border-linen/10 bg-surface-high/40 p-2">
-                      <img
-                        src={editingItem.data.image}
-                        alt="Vehicle preview"
-                        onError={(e) => {
-                          e.currentTarget.onerror = null;
-                          e.currentTarget.src = '/images/himachal-taxi-service.jpg';
-                        }}
-                        className="h-12 w-20 rounded-lg object-cover"
-                      />
-                      <span className="text-[11px] text-ink-dim">Vehicle Photo Preview</span>
-                    </div>
-                  )}
+
+                  <ImagePickerField
+                    label="Vehicle Picture"
+                    value={editingItem.data.image || ''}
+                    onChange={(val) => setEditingItem({ ...editingItem, data: { ...editingItem.data, image: val } })}
+                    required
+                  />
                   <div>
                     <label className="block text-xs font-bold text-ink-dim mb-1">Highlight Note</label>
                     <input
@@ -1371,43 +1352,23 @@ export default function Admin() {
                       />
                     </div>
                   </div>
-                  <div className="grid grid-cols-2 gap-3">
-                    <div>
-                      <label className="block text-xs font-bold text-ink-dim mb-1">Estimated Price</label>
-                      <input
-                        type="text"
-                        value={editingItem.data.price || ''}
-                        onChange={(e) => setEditingItem({ ...editingItem, data: { ...editingItem.data, price: e.target.value } })}
-                        className="w-full rounded-xl border border-linen/20 bg-surface-high/60 px-3 py-2 text-sm text-ink focus:border-amber focus:outline-none"
-                        placeholder="₹12,000 onward"
-                      />
-                    </div>
-                    <div>
-                      <label className="block text-xs font-bold text-ink-dim mb-1">Image Path / URL</label>
-                      <input
-                        type="text"
-                        required
-                        value={editingItem.data.image || ''}
-                        onChange={(e) => setEditingItem({ ...editingItem, data: { ...editingItem.data, image: e.target.value } })}
-                        className="w-full rounded-xl border border-linen/20 bg-surface-high/60 px-3 py-2 text-sm text-ink focus:border-amber focus:outline-none"
-                        placeholder="/images/manali.jpg"
-                      />
-                    </div>
+                  <div>
+                    <label className="block text-xs font-bold text-ink-dim mb-1">Estimated Price</label>
+                    <input
+                      type="text"
+                      value={editingItem.data.price || ''}
+                      onChange={(e) => setEditingItem({ ...editingItem, data: { ...editingItem.data, price: e.target.value } })}
+                      className="w-full rounded-xl border border-linen/20 bg-surface-high/60 px-3 py-2 text-sm text-ink focus:border-amber focus:outline-none"
+                      placeholder="₹12,000 onward"
+                    />
                   </div>
-                  {editingItem.data.image && (
-                    <div className="flex items-center gap-3 rounded-xl border border-linen/10 bg-surface-high/40 p-2">
-                      <img
-                        src={editingItem.data.image}
-                        alt="Package preview"
-                        onError={(e) => {
-                          e.currentTarget.onerror = null;
-                          e.currentTarget.src = '/images/himachal-taxi-service.jpg';
-                        }}
-                        className="h-12 w-20 rounded-lg object-cover"
-                      />
-                      <span className="text-[11px] text-ink-dim">Package Banner Preview</span>
-                    </div>
-                  )}
+
+                  <ImagePickerField
+                    label="Tour Package Picture / Banner"
+                    value={editingItem.data.image || ''}
+                    onChange={(val) => setEditingItem({ ...editingItem, data: { ...editingItem.data, image: val } })}
+                    required
+                  />
                   <div>
                     <label className="block text-xs font-bold text-ink-dim mb-1">Highlights</label>
                     <input
@@ -1473,43 +1434,23 @@ export default function Admin() {
                       />
                     </div>
                   </div>
-                  <div className="grid grid-cols-2 gap-3">
-                    <div>
-                      <label className="block text-xs font-bold text-ink-dim mb-1">Link Target</label>
-                      <input
-                        type="text"
-                        required
-                        value={editingItem.data.to || ''}
-                        onChange={(e) => setEditingItem({ ...editingItem, data: { ...editingItem.data, to: e.target.value } })}
-                        className="w-full rounded-xl border border-linen/20 bg-surface-high/60 px-3 py-2 text-sm text-ink focus:border-amber focus:outline-none"
-                        placeholder="/taxi-service-in-una"
-                      />
-                    </div>
-                    <div>
-                      <label className="block text-xs font-bold text-ink-dim mb-1">Image Path / URL</label>
-                      <input
-                        type="text"
-                        value={editingItem.data.image || ''}
-                        onChange={(e) => setEditingItem({ ...editingItem, data: { ...editingItem.data, image: e.target.value } })}
-                        className="w-full rounded-xl border border-linen/20 bg-surface-high/60 px-3 py-2 text-sm text-ink focus:border-amber focus:outline-none"
-                        placeholder="/images/service-local-taxi.jpg"
-                      />
-                    </div>
+                  <div>
+                    <label className="block text-xs font-bold text-ink-dim mb-1">Link Target</label>
+                    <input
+                      type="text"
+                      required
+                      value={editingItem.data.to || ''}
+                      onChange={(e) => setEditingItem({ ...editingItem, data: { ...editingItem.data, to: e.target.value } })}
+                      className="w-full rounded-xl border border-linen/20 bg-surface-high/60 px-3 py-2 text-sm text-ink focus:border-amber focus:outline-none"
+                      placeholder="/taxi-service-in-una"
+                    />
                   </div>
-                  {editingItem.data.image && (
-                    <div className="flex items-center gap-3 rounded-xl border border-linen/10 bg-surface-high/40 p-2">
-                      <img
-                        src={editingItem.data.image}
-                        alt="Service preview"
-                        onError={(e) => {
-                          e.currentTarget.onerror = null;
-                          e.currentTarget.src = '/images/service-local-taxi.jpg';
-                        }}
-                        className="h-12 w-20 rounded-lg object-cover"
-                      />
-                      <span className="text-[11px] text-ink-dim">Service Image Preview</span>
-                    </div>
-                  )}
+
+                  <ImagePickerField
+                    label="Taxi Service Picture"
+                    value={editingItem.data.image || ''}
+                    onChange={(val) => setEditingItem({ ...editingItem, data: { ...editingItem.data, image: val } })}
+                  />
                   <div>
                     <label className="block text-xs font-bold text-ink-dim mb-1">Description</label>
                     <textarea
