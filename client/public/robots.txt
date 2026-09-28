@@ -1,0 +1,27 @@
+# robots.txt for Lucky Tour & Travel
+User-agent: *
+Allow: /
+
+# Explicitly welcome major search engines and AI crawlers
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: GPTBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Applebot
+Allow: /
+
+Sitemap: https://www.your-domain.com/sitemap.xml

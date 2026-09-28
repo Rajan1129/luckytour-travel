@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html { scroll-behavior: smooth; scroll-padding-top: 5rem; }
+  body { @apply bg-surface font-sans text-ink antialiased; padding-bottom: env(safe-area-inset-bottom); }
+  h1, h2, h3 { @apply font-serif; }
+  :focus-visible { outline: 2px solid #faba75; outline-offset: 3px; border-radius: 6px; }
+  @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } * { animation-duration: .01ms !important; transition-duration: .01ms !important; } }
+}
+@layer components {
+  .glass { @apply border border-linen/10 bg-surface-mid/70 shadow-glass backdrop-blur-xl; background-image: linear-gradient(135deg, rgba(249,248,243,.06), rgba(249,248,243,0)); }
+  .field { @apply w-full rounded-xl border border-linen/10 bg-surface-high px-4 py-3 text-ink placeholder:text-outline focus:border-amber; }
+  .container-x { @apply mx-auto w-full max-w-7xl px-5 md:px-12; }
+  .section { @apply py-16 md:py-24; }
+}
