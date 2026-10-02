@@ -5,7 +5,7 @@ export const landingPages = {
     parent: 'taxi-service-himachal-pradesh',
     tripDest: 'Una',
     title: 'Taxi Service in Una | Best Cab Booking | Lucky Tour & Travel',
-    description: 'Looking for reliable taxi service in Una, Himachal Pradesh? Book clean cabs for Una railway station, local travel, outstation trips & tour packages. Call 09817980599.',
+    description: 'Looking for reliable taxi service in Una, Himachal Pradesh? Book clean cabs for Una railway station, local travel, outstation trips & tour packages. Call 09816980599.',
     h1: 'Taxi Service in Una, Himachal Pradesh',
     intro: 'Lucky Tour & Travel provides 24/7, dependable taxi service in Una and surrounding areas. Whether you need local pickup in Una town, a transfer from Una Railway Station, or an outstation cab to Chandigarh, Delhi, Shimla, or Manali, our verified drivers ensure a safe, comfortable ride.',
     sections: [
@@ -30,7 +30,7 @@ export const landingPages = {
       }
     ],
     faqs: [
-      ['How do I book a taxi service in Una?', 'You can book immediately by calling 09817980599 or 09816980599, contacting us on WhatsApp, or submitting the quick quote form on this page.'],
+      ['How do I book a taxi service in Una?', 'You can book immediately by calling 09816980599 or 09817980599, contacting us on WhatsApp, or submitting the quick quote form on this page.'],
       ['Do you provide Una Railway Station taxi pickups?', 'Yes, we provide 24/7 pickup and drop services at Una Himachal Railway Station (UHL) with zero waiting delays.'],
       ['Which vehicles are available in Una?', 'We offer spacious Maruti Suzuki Ertiga (ideal for families and luggage), comfortable sedans, and group travel cabs.'],
       ['Are your taxi fares fixed or per kilometer?', 'We provide transparent quotes with all-inclusive pricing (fuel and driver allowance included) based on your chosen route.']
@@ -42,7 +42,7 @@ export const landingPages = {
     parent: 'taxi-service-himachal-pradesh',
     tripDest: 'Amb',
     title: 'Taxi Service in Amb | Reliable Cabs & Taxi Stand | Lucky Tour & Travel',
-    description: 'Best taxi service in Amb, Himachal Pradesh. Clean cabs for local trips, Amb taxi stand, Chintpurni temple tour, and outstation travel. Call 09817980599.',
+    description: 'Best taxi service in Amb, Himachal Pradesh. Clean cabs for local trips, Amb taxi stand, Chintpurni temple tour, and outstation travel. Call 09816980599.',
     h1: 'Taxi Service in Amb, Himachal Pradesh',
     intro: 'Located right in Tehsil Amb, Lucky Tour & Travel is your trusted local taxi service in Amb. From daily local commuting and market visits to Chintpurni temple darshan and long-distance outstation travel, we offer prompt, clean, and budget-friendly cabs.',
     sections: [
@@ -106,7 +106,7 @@ export const landingPages = {
       }
     ],
     faqs: [
-      ['How do I book a taxi for Vande Bharat arrival at Amb Andaura?', 'Simply WhatsApp or call us at 09817980599 with your train number and arrival date. Your cab will be parked at the station exit before you alight.'],
+      ['How do I book a taxi for Vande Bharat arrival at Amb Andaura?', 'Simply WhatsApp or call us at 09816980599 with your train number and arrival date. Your cab will be parked at the station exit before you alight.'],
       ['What is the taxi fare from Amb Andaura station to Chintpurni temple?', 'Mata Chintpurni temple is approximately 25-28 km from Amb Andaura station, taking around 40-50 minutes by taxi. Fares typically range from ₹900 to ₹1,200.'],
       ['What is the taxi fare from Amb Andaura to Baglamukhi temple?', 'Taxi fare from Amb Andaura to Mata Baglamukhi Temple (Bankhandi, Kangra) is around ₹1,500 - ₹1,800 depending on vehicle (Ertiga / Innova / Dzire). Same-day darshan return cabs are also available.'],
       ['Can I book a cab from Amb Andaura to Dharamshala or Kangra?', 'Yes, we provide one-way drops and return packages to Kangra, Dharamshala, McLeod Ganj, Bir Billing, and Dalhousie.']
@@ -144,7 +144,7 @@ export const landingPages = {
     faqs: [
       ['Do you provide taxi service from Nangal to Bhakra Dam?', 'Yes, we provide comfortable round-trip cabs from Nangal to Bhakra Dam with scenic route stops.'],
       ['Can I book a taxi from Nangal to Chandigarh Airport?', 'Yes, we provide express airport transfers from Nangal to Chandigarh International Airport (IXC).'],
-      ['How do I hire a cab in Nangal?', 'Call 09817980599 or message us on WhatsApp for an instant booking confirmation.']
+      ['How do I hire a cab in Nangal?', 'Call 09816980599 or message us on WhatsApp for an instant booking confirmation.']
     ]
   },
 
@@ -349,7 +349,7 @@ export const landingPages = {
       }
     ],
     faqs: [
-      ['How do I book a taxi?', 'Call 09817980599 or 09816980599, or send an enquiry through the form on this page. The team will contact you to confirm the trip.'],
+      ['How do I book a taxi?', 'Call 09816980599 or 09817980599, or send an enquiry through the form on this page. The team will contact you to confirm the trip.'],
       ['Where are you based?', 'Amb Andaura Railway Station Rd, Amb, Himachal Pradesh 177203 (Plus Code: M4C6+54R).'],
       ['Do you quote fares online?', 'Fares depend on the route and vehicle, so please send your trip details to receive an exact upfront quote.']
     ]
@@ -416,7 +416,7 @@ export const landingPages = {
     ],
     faqs: [
       ['What is the taxi fare from Amb Andaura to Baglamukhi temple?', 'Fares start around ₹1,500 to ₹1,800 for sedan/Ertiga cabs. For round-trip darshan with waiting time, customized packages are available.'],
-      ['Can I get a taxi immediately upon Vande Bharat arrival?', 'Yes, we specialize in synchronized pickups for the New Delhi - Amb Andaura Vande Bharat Express (Train 22447). Pre-book on 09817980599 to have your cab waiting.'],
+      ['Can I get a taxi immediately upon Vande Bharat arrival?', 'Yes, we specialize in synchronized pickups for the New Delhi - Amb Andaura Vande Bharat Express (Train 22447). Pre-book on 09816980599 to have your cab waiting.'],
       ['Is special puja waiting time included in return trips?', 'Yes, we provide flexible return cabs with waiting time at the temple for havan, darshan, and prasad.']
     ]
   },
@@ -450,7 +450,7 @@ export const landingPages = {
       }
     ],
     faqs: [
-      ['How much does a taxi from Una or Amb to Dalhousie cost?', 'Fares depend on the selected vehicle and trip duration (one-way vs multi-day). Contact 09817980599 for an all-inclusive transparent quote.'],
+      ['How much does a taxi from Una or Amb to Dalhousie cost?', 'Fares depend on the selected vehicle and trip duration (one-way vs multi-day). Contact 09816980599 for an all-inclusive transparent quote.'],
       ['Can we include Khajjiar in the Dalhousie taxi package?', 'Yes, Khajjiar is located just 22 km from Dalhousie and is included in all our local sightseeing packages.'],
       ['Are your drivers experienced on the Dalhousie hill route?', 'All our chauffeurs have years of verified hill driving experience on Himachal mountain roads.']
     ]
@@ -461,7 +461,7 @@ export const landingPages = {
     parent: 'taxi-service-himachal-pradesh',
     tripDest: 'Una',
     title: 'Rental Cabs in Una | Car Rental & Chauffeur Cabs | Lucky Tour & Travel',
-    description: 'Looking for rental cabs in Una? Book chauffeur-driven car rentals for hourly local use, daily cab hire, weddings & outstation Himachal tours. Call 09817980599.',
+    description: 'Looking for rental cabs in Una? Book chauffeur-driven car rentals for hourly local use, daily cab hire, weddings & outstation Himachal tours. Call 09816980599.',
     h1: 'Rental Cabs & Car Rental Services in Una, HP',
     intro: 'Need a rental car or cab hire in Una? Lucky Tour & Travel provides 100% verified, chauffeur-driven rental cabs across Una district including Mehatpur, Amb, Gagret, and Santokhgarh. Whether you need an 8-hour / 80-km package for business visits, a reliable family car for local shopping, a luxury wedding fleet, or a multi-day Himachal tour vehicle, we offer sanitized cars and experienced mountain drivers.',
     sections: [
@@ -492,7 +492,7 @@ export const landingPages = {
     faqs: [
       ['What types of rental cabs are available in Una?', 'We offer sedans, Maruti Ertiga (6+1), Toyota Innova Crysta & Hycross (7+1), Toyota Fortuner (4x4 SUV), and Force Urbania (10-14 seater) for group rentals.'],
       ['Do you offer self-drive car rentals in Una?', 'No, all our rental cabs are 100% chauffeur-driven. Our professional drivers handle hill roads, traffic, and parking so you can travel safely and comfortably without any security deposit or damage liability.'],
-      ['How do I book a rental cab in Una?', 'You can book immediately by calling 09817980599 or 09816980599, messaging us on WhatsApp, or using the booking form on this website.'],
+      ['How do I book a rental cab in Una?', 'You can book immediately by calling 09816980599 or 09817980599, messaging us on WhatsApp, or using the booking form on this website.'],
       ['Are toll, parking, and driver charges included?', 'We provide transparent upfront billing. You can choose all-inclusive packages (fuel, driver allowance, tolls) or standard per-km rates with zero hidden surprises.']
     ]
   }

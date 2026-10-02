@@ -1119,7 +1119,7 @@ export default function Admin() {
                     value={settingsForm.phone1 || ''}
                     onChange={(e) => setSettingsForm({ ...settingsForm, phone1: e.target.value })}
                     className="w-full rounded-xl border border-linen/20 bg-surface-high/60 px-3 py-2 text-sm text-ink focus:border-amber focus:outline-none"
-                    placeholder="09817 980599"
+                    placeholder="09816 980599"
                   />
                 </div>
                 <div>
@@ -1131,7 +1131,7 @@ export default function Admin() {
                     value={settingsForm.phone1Tel || ''}
                     onChange={(e) => setSettingsForm({ ...settingsForm, phone1Tel: e.target.value })}
                     className="w-full rounded-xl border border-linen/20 bg-surface-high/60 px-3 py-2 text-sm text-ink focus:border-amber focus:outline-none"
-                    placeholder="09817980599"
+                    placeholder="09816980599"
                   />
                 </div>
               </div>
@@ -1146,7 +1146,7 @@ export default function Admin() {
                     value={settingsForm.phone2 || ''}
                     onChange={(e) => setSettingsForm({ ...settingsForm, phone2: e.target.value })}
                     className="w-full rounded-xl border border-linen/20 bg-surface-high/60 px-3 py-2 text-sm text-ink focus:border-amber focus:outline-none"
-                    placeholder="09816 980599"
+                    placeholder="09817 980599"
                   />
                 </div>
                 <div>
@@ -1158,7 +1158,7 @@ export default function Admin() {
                     value={settingsForm.phone2Tel || ''}
                     onChange={(e) => setSettingsForm({ ...settingsForm, phone2Tel: e.target.value })}
                     className="w-full rounded-xl border border-linen/20 bg-surface-high/60 px-3 py-2 text-sm text-ink focus:border-amber focus:outline-none"
-                    placeholder="09816980599"
+                    placeholder="09817980599"
                   />
                 </div>
               </div>
@@ -1172,7 +1172,7 @@ export default function Admin() {
                   value={settingsForm.whatsapp || ''}
                   onChange={(e) => setSettingsForm({ ...settingsForm, whatsapp: e.target.value })}
                   className="w-full rounded-xl border border-linen/20 bg-surface-high/60 px-3 py-2 text-sm text-ink focus:border-amber focus:outline-none"
-                  placeholder="919817980599"
+                  placeholder="919816980599"
                 />
               </div>
 

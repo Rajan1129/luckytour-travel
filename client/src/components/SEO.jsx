@@ -38,7 +38,7 @@ export const localBusinessLd = () => ({
   image: `${SITE.url}${SITE.ogImage}`,
   logo: `${SITE.url}${SITE.logo}`,
   description: 'Top-rated taxi service in Una, Amb, Amb Andaura railway station, Nangal and Himachal Pradesh. Offering 24/7 local cabs, outstation travel, airport transfers, Shimla & Manali tour packages.',
-  telephone: ['+91-9817980599', '+91-9816980599'],
+  telephone: ['+91-9816980599', '+91-9817980599'],
   priceRange: '₹₹',
   currenciesAccepted: 'INR',
   paymentAccepted: 'Cash, UPI, Net Banking',

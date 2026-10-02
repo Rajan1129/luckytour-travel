@@ -6,10 +6,10 @@ export const SITE = {
   url: (env.VITE_SITE_URL || 'https://www.your-domain.com').replace(/\/$/, ''),
   apiUrl: (env.VITE_API_URL || 'http://localhost:5000').replace(/\/$/, ''),
   phones: [
-    { display: '09817 980599', tel: '09817980599' },
-    { display: '09816 980599', tel: '09816980599' }
+    { display: '09816 980599', tel: '09816980599' },
+    { display: '09817 980599', tel: '09817980599' }
   ],
-  whatsapp: (env.VITE_WHATSAPP_NUMBER || '').replace(/\D/g, ''),
+  whatsapp: (env.VITE_WHATSAPP_NUMBER || '919816980599').replace(/\D/g, ''),
   mapsEmbed: env.VITE_GOOGLE_MAPS_EMBED_URL || '',
   googleBusinessUrl: env.VITE_GOOGLE_BUSINESS_URL || '',
   address: { street: 'Amb Andaura Railway Station Rd', locality: 'Amb, District Una', region: 'Himachal Pradesh', postalCode: '177203', country: 'IN' },

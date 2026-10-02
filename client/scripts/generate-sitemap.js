@@ -73,8 +73,8 @@ const llmsTxt = `# Lucky Tour & Travel
 ## Business & Contact Details
 - Brand: Lucky Tour & Travel
 - Tagline: Taxi Service in Una, Amb & Himachal Pradesh
-- Phone / Hotline: +91 9817980599 / +91 9816980599
-- WhatsApp: +91 9817980599 (Direct instant booking)
+- Phone / Hotline: +91 9816980599 / +91 9817980599
+- WhatsApp: +91 9816980599 (Direct instant booking)
 - Head Office: Tehsil & VPO Dhamandri, Amb, District Una, Himachal Pradesh 174303
 - Plus Code: H68X+F3 Dhamandri, Himachal Pradesh
 - Google Business Profile: 5.0 / 5.0 Star Rating
@@ -111,9 +111,9 @@ Lucky Tour & Travel is a premier passenger transport and taxi service company he
 Holding a verified 5.0-star rating on Google, the service is renowned for neat, clean vehicles (including Maruti Suzuki Ertiga, Toyota Innova Crysta, Force Urbania, Fortuner, Scorpio-N), smooth driving, punctuality, and courteous local hill chauffeurs.
 
 Contact Numbers:
-- Primary Phone: +91 9817980599
-- Secondary Phone: +91 9816980599
-- WhatsApp: https://wa.me/919817980599
+- Primary Phone: +91 9816980599
+- Secondary Phone: +91 9817980599
+- WhatsApp: https://wa.me/919816980599
 - Website: ${site}
 
 Operating Hours: 24 Hours a day, 7 days a week (24/7).
@@ -177,7 +177,7 @@ Operating Hours: 24 Hours a day, 7 days a week (24/7).
 ## 4. Frequently Asked Questions (FAQ)
 
 Q: How can I book a taxi with Lucky Tour & Travel?
-A: Call directly at 09817980599 or 09816980599, send a message on WhatsApp (+91 9817980599), or fill out the enquiry form on ${site}.
+A: Call directly at 09816980599 or 09817980599, send a message on WhatsApp (+91 9816980599), or fill out the enquiry form on ${site}.
 
 Q: Do you offer pickups for the Vande Bharat Express at Amb Andaura?
 A: Yes, we specialize in Amb Andaura Railway Station (AADR) pickups for Vande Bharat Express (22447/22448). Drivers coordinate with you before arrival so your cab is waiting at the exit.

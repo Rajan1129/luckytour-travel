@@ -5,8 +5,8 @@ import * as S from '../components/sections.jsx';
 export default function Home() {
   return (
     <>
-      <SEO path="/" title="Taxi Service in Una, Amb & Amb Andaura | Lucky Tour & Travel"
-        description="Reliable and comfortable taxi service in Una, Amb, Amb Andaura railway station, Nangal & Himachal Pradesh. Clean Ertiga cabs for local rides, outstation trips, airport transfers, Shimla & Manali tours."
+      <SEO path="/" title="Taxi Service in Amb & Amb Andaura | Lucky Tour & Travel"
+        description="Book 24/7 reliable taxi service in Amb & Amb Andaura Railway Station (AADR). Clean Ertiga, Innova & Urbania cabs for Vande Bharat pickups, Chintpurni, Baglamukhi & Himachal tours. Call 09816980599."
         jsonLd={[localBusinessLd()]} />
       <Hero />
       <S.TrustStrip />

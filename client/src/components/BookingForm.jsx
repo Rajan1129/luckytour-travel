@@ -87,7 +87,7 @@ export default function BookingForm({ preset = {}, compact = false }) {
   return (
     <form onSubmit={onSubmit} noValidate className="grid gap-4 sm:grid-cols-2">
       <Field id="f-name" label="Full name" error={errors.name}><input {...props('name')} autoComplete="name" placeholder="Your name" /></Field>
-      <Field id="f-phone" label="Phone number" error={errors.phone}><input {...props('phone')} type="tel" inputMode="tel" autoComplete="tel" placeholder="98179 80599" /></Field>
+      <Field id="f-phone" label="Phone number" error={errors.phone}><input {...props('phone')} type="tel" inputMode="tel" autoComplete="tel" placeholder="98169 80599" /></Field>
       <Field id="f-pickup" label="Pickup location" error={errors.pickup}><input {...props('pickup')} placeholder="e.g. Dhamandri" /></Field>
       <Field id="f-destination" label="Destination" error={errors.destination}><input {...props('destination')} placeholder="e.g. Shimla, Manali, Dharamshala" /></Field>
       <Field id="f-travelDate" label="Travel date" error={errors.travelDate}><input {...props('travelDate')} type="date" min={new Date().toISOString().slice(0, 10)} /></Field>

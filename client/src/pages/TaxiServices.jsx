@@ -37,7 +37,7 @@ const FARES_TABLE = [
 ];
 
 const FAQS = [
-  ['How do I book a taxi with Lucky Tour & Travel?', 'You can book instantly by calling 09817980599 or 09816980599, messaging us on WhatsApp, or submitting the quick quote form on our website. We provide instant confirmation.'],
+  ['How do I book a taxi with Lucky Tour & Travel?', 'You can book instantly by calling 09816980599 or 09817980599, messaging us on WhatsApp, or submitting the quick quote form on our website. We provide instant confirmation.'],
   ['Are taxis available at Amb Andaura Railway Station for Vande Bharat Express?', 'Yes, we provide 24/7 dedicated train arrival pickups for the New Delhi – Amb Andaura Vande Bharat Express (Train 22447/22448) and Himachal Express. Your sanitized cab will be waiting right at the station exit when your train pulls in.'],
   ['What are your taxi rates for outstation trips from Una and Amb?', 'Outstation rates start at approximately ₹11–₹13/km for sedans (Maruti Dzire), ₹14–₹16/km for MPVs (Maruti Ertiga), and ₹18–₹22/km for luxury SUVs (Toyota Innova Crysta). We also provide transparent fixed upfront quotes with no hidden charges.'],
   ['Can we hire a cab for same-day Devi Darshan covering multiple temples?', 'Yes, our popular Shaktipeeth Darshan package covers Mata Chintpurni, Mata Baglamukhi (Bankhandi), Mata Jwala Ji, Chamunda Devi, and Kangra Brajeshwari Devi with flexible temple waiting time.'],

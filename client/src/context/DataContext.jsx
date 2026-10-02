@@ -15,11 +15,11 @@ export function DataProvider({ children }) {
   const [services, setServices] = useState(initialServices);
   const [reviews, setReviews] = useState(initialReviews);
   const [settings, setSettings] = useState({
-    phone1: SITE.phones[0]?.display || '09817 980599',
-    phone1Tel: SITE.phones[0]?.tel || '09817980599',
-    phone2: SITE.phones[1]?.display || '09816 980599',
-    phone2Tel: SITE.phones[1]?.tel || '09816980599',
-    whatsapp: SITE.whatsapp || '919817980599',
+    phone1: SITE.phones[0]?.display || '09816 980599',
+    phone1Tel: SITE.phones[0]?.tel || '09816980599',
+    phone2: SITE.phones[1]?.display || '09817 980599',
+    phone2Tel: SITE.phones[1]?.tel || '09817980599',
+    whatsapp: SITE.whatsapp || '919816980599',
     address: SITE.plusCode || 'M4C6+54R, Amb Andaura Railway Station Rd, Amb, Himachal Pradesh 177203',
     announcement: '24/7 Vande Bharat pickups & instant cab dispatch available at Amb Andaura Station',
     showAnnouncement: true
